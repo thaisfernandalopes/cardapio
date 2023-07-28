@@ -12,12 +12,12 @@ body{
 header{
     background-image: url(Img/logo1.jpeg);
     background-color: rgb(245, 245, 245);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: left;
+    background-repeat: space;
     text-align: center;
-    color: rgb(240, 153, 91);
+    color: black;
     padding: 100px;
-    font-family: monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Os links do menu */
@@ -32,8 +32,8 @@ header{
     text-align: center;
     text-decoration: none;
     padding: 10px 20px;
-    font-family: monospace;
-    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
 }
 .navegação a:hover{
     background-color: brown;
