@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 245, 245) ;
+    margin: 0;
+    text-align: center;
+}
+
+/* Parte do cabeçalho */
+header{
+    background-image: url(Img/logo1.jpeg);
+    background-color: rgb(245, 245, 245);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(240, 153, 91);
+    padding: 100px;
+    font-family: monospace;
+}
+
+/* Os links do menu */
+.navegação{
+    overflow: hidden;
+    background-color: rgb(129, 81, 46);
+}
+.navegação a{
+    float: left;
+    display: block;
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: monospace;
+    font-size: medium;
+}
+.navegação a:hover{
+    background-color: brown;
+    color: antiquewhite;
+}
+
+/* Edição das imagens */
+.galeria {
+    margin: 5px;
+    border: 5px solid #696969;
+    float: left;
+    width: 230px;
+}
+.galeria:hover {
+    border: 5px solid #7e4301;
+}
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
