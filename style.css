@@ -21,21 +21,22 @@ header{
 }
 
 /* Os botões do menu */
-.navegação{
+.content{
     overflow: hidden;
     background-color: rgb(129, 81, 46);
+    cursor: pointer;
 }
-.navegação a{
+.content a{
     float: left;
     display: block;
-    color: bisque;
+    color: antiquewhite;
     text-align: center;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
 }
-.navegação a:hover{
+.content a:hover{
     background-color: brown;
     color: antiquewhite;
 }
@@ -43,19 +44,36 @@ header{
 /* Edição das imagens do cardápio */
 .galeria {
     margin: 5px;
-    border: 5px solid #696969;
+    border: rgb(69, 69, 69);
     float: left;
-    width: 230px;
+    width: 250px;
+    height: auto;
+    display: block;
 }
 .galeria:hover {
     border: 5px solid #7e4301;
+    float: left; 
 }
 .galeria img {
     width: 100%;
     height: auto;
+    display: block;
 }
 .desc {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
+    display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: auto;
+    height: auto;
+    display: block;
+    float: right;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
 }
