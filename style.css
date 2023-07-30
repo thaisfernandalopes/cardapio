@@ -78,9 +78,19 @@ p{
     font-size: medium;
 }
 
+frame{
+    width: 2px;
+    height: 2px;
+}
+
 footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
     text-align: center;
     padding-top: 230px;
+}
+
+frame{
+    width: min-content;
+    height: min-content;
 }
