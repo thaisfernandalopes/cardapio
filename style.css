@@ -65,7 +65,7 @@ header{
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* Imagem da página principal */
 img {
     width: auto;
     height: auto;
@@ -73,24 +73,22 @@ img {
     float: right;
 }
 
+/* Configuração de parágrafo */
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
 }
 
-frame{
-    width: 2px;
-    height: 2px;
+/* Mapa */
+iframe{
+    width: 200px;
+    height: auto;
 }
 
+/* Rodapé */
 footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
     text-align: center;
     padding-top: 230px;
-}
-
-frame{
-    width: min-content;
-    height: min-content;
 }
