@@ -59,27 +59,27 @@ header{
 .foto-inicial {
     width: 600px;
     height: auto;
-
 }
-p {
+.container {
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
     padding-bottom: 10px;
 }
-.circle{
+#circle{
     display: flex;
     border-radius: 100%;
     border: 8px double #7e4301;
     overflow: hidden;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
 }
-.circle img{
+#circle img{
     height:100%;
     width: 100%;
     object-fit: cover;
