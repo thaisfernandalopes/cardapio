@@ -10,9 +10,15 @@ html,body{
 
 body{
     background: linear-gradient(to bottom, rgb(216, 211, 211), rgb(245, 245, 245), grey);
-
     margin: 0 auto;
     text-align: center;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh
+}
+#content-wrap {
+    padding-bottom: 2.5rem;    /* altura do rodapé */
 }
 
 /* Parte do cabeçalho */
@@ -69,7 +75,6 @@ header{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
-    padding-bottom: 10px;
 }
 #circle{
     display: flex;
@@ -127,6 +132,9 @@ main{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+dl {
+    padding: 10px;
+}
 iframe {
     width: 250px;
     height: 250px;
@@ -134,12 +142,15 @@ iframe {
 
 /* Rodapé */
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
-    margin: 0 auto;
-    padding: 10px;
     background-color: #7e4301;
     color: bisque;
+    padding: 5px;
 }
 footer a{
     color: rgb(255, 169, 108);
