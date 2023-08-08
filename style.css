@@ -9,7 +9,7 @@ html,body{
 }
 
 body{
-    background: linear-gradient(to bottom, rgb(216, 211, 211), rgb(245, 245, 245), grey);
+    background: linear-gradient(to bottom, rgb(255, 218, 197), rgb(245, 245, 245),  rgb(255, 218, 197));
     margin: 0 auto;
     text-align: center;
 }
